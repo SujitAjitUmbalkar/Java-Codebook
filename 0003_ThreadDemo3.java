@@ -7,7 +7,7 @@ class Demo implements Runnable
 
 }
 
-class ThreadDemo3
+class 0003_ThreadDemo3
 {
     public static void main(String A[])
     {
