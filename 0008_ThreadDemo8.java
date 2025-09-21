@@ -7,7 +7,7 @@ class Demo extends Thread
     }
 }
 
-class ThreadDemo8
+class 0008_ThreadDemo8
 {
     public static void main(String A[]) throws Exception
     {        
