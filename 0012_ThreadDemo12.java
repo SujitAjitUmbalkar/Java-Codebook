@@ -23,7 +23,7 @@ class MyRunnable1 implements Runnable
     }
 }
 
-public class ThreadDemo12 {
+public class 0012_ThreadDemo12 {
     public static void main(String[] args) 
     {
         MyThread Mobj = new MyThread();
