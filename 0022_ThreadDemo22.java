@@ -20,7 +20,7 @@ class MyRunnableYield implements Runnable {
     }
 }
 
-public class ThreadDemo22 {
+public class 0022_ThreadDemo22 {
     public static void main(String[] args) {
         System.out.println("=== Using Thread subclass ===");
         MyThreadYield t1 = new MyThreadYield();
