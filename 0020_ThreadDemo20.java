@@ -38,7 +38,7 @@ class MyThread extends Thread
     }
 }
 
-public class ThreadDemo20 {
+public class 0020_ThreadDemo20 {
     public static void main(String[] args) 
     {
         MyRunnable Mobj = new MyRunnable();
