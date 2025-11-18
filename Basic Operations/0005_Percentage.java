@@ -1,44 +1,58 @@
-
 import java.util.Scanner;
 
 class CheckPercentage
 {
-    int Obt ;
-    int Tot;
+    private float obtained;
+    private float total;
 
-    public CheckPercentage(int A , int B)
+    public CheckPercentage(float obtained, float total)
     {
-        Obt = A;
-        Tot  = B;
+        this.obtained = obtained;
+        this.total = total;
     }
 
-    float checkPercentage()
+    public float calculate()
     {
-        float iPerc = ((float)Obt / (float)Tot)*100;
- 
-        return iPerc;
+        return (obtained / total) * 100;
     }
 }
 
 class Percentage
 {
-    public static void main(String Arg[])
+    public static void main(String[] args)
     {
         Scanner Sobj = new Scanner(System.in);
-        int iObtained = 0;
-        int iTotal = 0;
+        float obtained = 0.0f;
+        float total = 0.0f;
 
-        System.out.println("Enter Obtained : \n");
-        iObtained = Sobj.nextInt();
+        while (true)
+        {
+            System.out.print("Enter Obtained Marks: ");
+            obtained = Sobj.nextFloat();
 
-        System.out.println("Enter iTotal : \n");
-        iTotal = Sobj.nextInt();
+            if(obtained >= 0)
+            {
+                break;
+            }
+            System.out.println("Invalid Marks, Obtained shouldn't be less than 0  , Enter Again ! ");
+        }
 
-        CheckPercentage Cobj = new CheckPercentage(iObtained, iTotal);
-       float iRet =  Cobj.checkPercentage();
+        while (true)
+        {
+            System.out.print("Enter Total Marks: ");
+            total = Sobj.nextFloat();
 
-        System.out.println("Percentage are : \t"+iRet);
+            if (total > 0 && total >= obtained)
+                {break;}
 
-        
+            System.out.println("Invalid! Total must be >= obtained and > 0.");
+        }
+
+        CheckPercentage Cobj = new CheckPercentage(obtained, total);
+        float percentage = Cobj.calculate();
+
+        System.out.println("\nPercentage: " + percentage + "%");
+
+        Sobj.close();
     }
 }
