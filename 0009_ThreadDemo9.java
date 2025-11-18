@@ -17,7 +17,7 @@ class MyThread2 implements Runnable
     }
 }
 
-public class ThreadDemo9
+public class 0009_ThreadDemo9
 {
     public static void main(String Arg[])
     {

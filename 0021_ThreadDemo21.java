@@ -28,7 +28,7 @@ class MyRunnableJoin implements Runnable {
     }
 }
 
-public class ThreadDemo21 {
+public class 0021_ThreadDemo21 {
     public static void main(String[] args) throws Exception 
     {
         System.out.println("=== Using Thread subclass ===");

@@ -29,7 +29,7 @@ class MyRunnable2 implements Runnable {
     }
 }
 
-public class ThreadDemo18 {
+public class 0018_ThreadDemo18 {
     public static void main(String[] args) throws Exception {
         // Using Thread subclass
         MyThread2 t1 = new MyThread2();

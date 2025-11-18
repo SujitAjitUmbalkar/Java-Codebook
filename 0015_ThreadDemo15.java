@@ -12,7 +12,7 @@ class MyRunnable7 implements Runnable {
     }
 }
 
-public class ThreadDemo15 
+public class 0015_ThreadDemo15 
 {
     public static void main(String[] args) {
         // Using Thread class
@@ -28,5 +28,3 @@ public class ThreadDemo15
     }
 }
 
-
-// sujit ajit umbalkar |// At yashwant nagar tal chandgad , dist kolhapur maharashtra 

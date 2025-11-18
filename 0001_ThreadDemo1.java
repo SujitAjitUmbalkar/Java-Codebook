@@ -1,4 +1,4 @@
-class ThreadDemo1
+class 0001_ThreadDemo1
 {
     public static void main(String A[])
     {

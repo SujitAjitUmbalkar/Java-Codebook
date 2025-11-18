@@ -19,7 +19,7 @@ class MyRunnable implements Runnable {
     }
 } 
 
-public class ThreadDemo14 {
+public class 0014_ThreadDemo14 {
     public static void main(String[] args) throws Exception {
         // Thread class approach
         MyThread t1 = new MyThread();

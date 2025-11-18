@@ -12,7 +12,7 @@ class MyRunnable implements Runnable {
     }
 }
 
-public class ThreadDemo16 {
+public class 0016_ThreadDemo16 {
     public static void main(String[] args) {
         Thread t = new Thread(new MyRunnable());
         t.start();

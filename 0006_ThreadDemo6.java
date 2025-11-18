@@ -15,7 +15,7 @@ class Demo extends Thread
     }
 }
 
-class ThreadDemo6
+class 0006_ThreadDemo6
 {
     public static void main(String A[])
     {

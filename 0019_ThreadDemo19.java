@@ -41,7 +41,7 @@ class MyRunnable3 implements Runnable {
     }
 }
 
-public class ThreadDemo19 {
+public class 0019_ThreadDemo19 {
     public static void main(String[] args) throws Exception {
         System.out.println("=== Using Thread subclass ===");
         MyThread3 t1 = new MyThread3();
