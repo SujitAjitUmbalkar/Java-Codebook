@@ -10,6 +10,7 @@ class MarvellousString
 
         for(iCnt = 0; iCnt < Arr.length; iCnt++)
         {
+
             if((Arr[iCnt] >= 'a') && (Arr[iCnt] <= 'z'))
             {
                 iCount++;
