@@ -16,6 +16,7 @@ class Program0264 {
             iNo = iNo / 2;
         }
         return iCount;
+    
     }
 
     public static void main(String[] args) {
