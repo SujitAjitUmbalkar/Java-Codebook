@@ -11,6 +11,7 @@ class Digits
             iNo = -iNo;
         }
 
+
         while(iNo != 0)
         {
             iDigit = iNo % 10;
