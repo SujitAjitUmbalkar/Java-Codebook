@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// to input data
 
 class program216
 {
