@@ -35,5 +35,5 @@ class MyThread2 implements Runnable
 }
 
 
-// JVM internally set names to threads as .. Thread-0 , Thread-1...
+// JVM internally set names to threads as .. Thread-0 , Thread-1...Thread-2
 // it may vary 
